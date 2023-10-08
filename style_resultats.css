@@ -1,0 +1,50 @@
+*{
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    padding :0;
+    background-color: #f0f0f0;
+    text-align: center;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+fieldset {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+legend{
+        padding: 0px;
+        margin: 0px;
+        color: #781818;
+
+    
+}
+/* Stylisation pour les différents messages de résultat */
+.resultats {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    
+    border-radius: 10px;
+}
+/* Stylisation des messages de statut de santé */
+.sante-critique {
+    color: red;
+    font-weight: bold;
+}
+.sante-susceptible {
+    color: orange;
+    font-weight: bold;
+}
+.sante-sain {
+    color: green;
+    font-weight: bold;
+}
